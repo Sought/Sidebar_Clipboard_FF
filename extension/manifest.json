@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Clipboard Sidebar",
+    "version": "1.0",
+    "description": "Affiche un volet latéral contenant des textes copiables.",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "clipboardWrite",
+        "browsingData"
+    ],
+    "host_permissions": [
+        "https://127.0.0.1:8081/*"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "sidebar_action": {
+        "default_title": "Clipboard",
+        "default_panel": "sidebar.html"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "clipboard-sidebar@example.com"
+        }
+    }
+}

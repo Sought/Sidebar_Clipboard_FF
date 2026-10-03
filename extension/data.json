@@ -1,0 +1,21 @@
+{
+    "label" : "Env local",
+    "url" : "https://127.0.0.1:8081",
+    "ids" : [
+        {
+            "label" : "Profil 1 avec droits x",
+            "username" : "banane",
+            "password" : "1"
+        },
+        {
+            "label": "Profil 2 avec droits y",
+            "username" : "jacques",
+            "password" : "1"
+        },
+        {
+            "label": "Profil 3 avec droits z",
+            "username" : "toto",
+            "password" : "1"
+        }
+    ]
+}
